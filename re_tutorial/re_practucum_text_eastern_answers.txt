@@ -17,7 +17,7 @@ INTRO (Type regular expressions in the Search window)
 1. Try the following regex: [ch]at
 	that	at
 	chat	cat
-	fat	phat
+	fat	    phat
 	
 3. Try the following regex: [10][23]
 	02	03	12	13
@@ -44,6 +44,7 @@ INTRO (Type regular expressions in the Search window)
 PART I
 1. What regular expression matches each of the following?
 	“eat”, “eats”, “ate” and “eaten”
+
 	ANSWER: \b(eat(s|en)?|ate)\b
 
 2. Find all Qadhdhafis...
@@ -54,6 +55,7 @@ PART I
 		(SRC: http://tinyurl.com/4839sks)
 	The LOC lists 72 alternate spellings
 		(SRC: http://tinyurl.com/3nnftpt)
+
 	Maummar Gaddafi, Moamar AI Kadafi, Moamar al-Gaddafi,
 	Moamar el Gaddafi, Moamar El Kadhafi, Moamar Gaddafi,
 	Moamar Gadhafi, Moamer El Kazzafi, Moamer Gaddafi,
@@ -66,6 +68,7 @@ PART I
 	Mu`ammar al-Qadhdhāfī, Mu'amar al-Kadafi, Muamar Al-Kaddafi,
 	Muamar Gaddafi, Muamar Kaddafi, Muamer Gadafi, Muammar al Gaddafi,
 	Muammar Al Ghaddafi, Muammar Al Qaddafi, Muammar Al Qathafi
+
 	ANSWER: M[aou][`']?[ua]a?m+[ea]r? ([AaEe][lI][- ])?[GKQ]h?[][au]([tdz][h']?)+[aā]f+[iyī]
 
 3. Find all variations of Iṣbahān
@@ -80,6 +83,7 @@ PART I
 	isfahan, esfāhān‎, esfahān,
 	espahan, ispahan, sepahan,
 	esfahan, hispahan, nesf-e jahān
+
 	ANSWER: \b([Hh]?[IiEe][sṣ][bpf][aā]h[aā]n|[Ss]epahan|[Nn]esf-e [Jj]ahān)\b
 	
 	NB: Arabic is not quite proporly shown here. You can switch
@@ -94,6 +98,7 @@ PART I
 	اصفهان، أصفهان، اسپهان، أصفهــان،
 	أصبهان، آصفهان، إصفهان، آسپهان،
 	ٱصفهــان، اصبهان، إصبهان، آصبهان
+
 	ANSWER: \b([اأآإٱ][صس][پبفپ]هـ*ان)\b
 
 
@@ -109,6 +114,7 @@ PART II (more practice)
 	El Kadhafi, Moammar
 	El Kazzafi, Moamer
 	El Qathafi, MuAmmar
+
 	ANSWER (SEARCH):  \t(([aAEa]l[- ])?\w+), (\w+)$
 	ANSWER (REPLACE): \t\3 \1
 
@@ -118,6 +124,7 @@ PART II (more practice)
 	Al-Iṣbahānī, al-Isfahani, Iskandarii,
 	al-Baghdadiya, al-Baġdādīya, al-Kūfī,
 	al-Dhahabi, Jawziyya, aṭ-Ṭabarī
+
 	ANSWER: ([Aa][lṭ]-)?\w+[iī](y+a)?\b
 	
 	NB: Arabic is not quite proporly shown here. You can switch
@@ -132,6 +139,7 @@ PART II (more practice)
 	الاصبهاني، الاصفهانى، إسكندري،
 	البغدادية، بغدادي، الكوفي،
 	الذهبي، جوزية، الطبري
+
 	ANSWER: \b(([اإ]ل)?\w+[يى]ة?)\b
 	
 3. Find all words of the mafʿūl pattern:
@@ -141,6 +149,7 @@ PART II (more practice)
 	al-masʾūla, al-manṣūra, al-maksūra,
 	maqtūl, mafʿūl, maktūb,
 	masʾūla, manṣūra, maksūra
+
 	ANSWER: (al-)?ma..ū.a?
 	ANSWER: \b((al-)?ma\w\wū\wa?)\b
 	
@@ -157,11 +166,13 @@ PART II (more practice)
 	المسؤولة، المنصورة، المكسورة،
 	مقتول، مفعول، مكتوب،
 	مسؤولة، منصورة، مكسورة
+
 	ANSWER: ([اٱ]ل)?م..و.ة?
 	
 4. Find all given variations of the strong root:
 	EASY:
 	ḫabaza al-ḫabbāzu aḫbazan wa-maḫbūzātin fī maḫbazīhi
+
 	ANSWER: (al-|wa-)?(\w+)?ḫ\w?b+\w?z(\w+)?
 	
 	NB: Arabic is not quite proporly shown here. You can switch
@@ -174,6 +185,7 @@ PART II (more practice)
 	
 	TRICKY:
 	خبز الخباز أخبازا ومخبوزات في مخبزه
+
 	ANSWER: (\w+)?خب\w?ز(\w+)?
 
 5. Construct regular expressions that find references to the regions of
@@ -196,6 +208,7 @@ PART II (more practice)
 	  عبرتا ، بابل ، عبدس ، قصر ابن هبيرة .
 	# واما حلوان فمن مدنها خانقين ، زبوجان ، شلاشان ، الجامد ،
 	  الحر ، السيروان ، بندنيجان .
+
 	ANSWER: simply connect all toponyms with |
 	ANSWER (al-Kūfa): حمام ابن عمر|الجامعين|سورا|النيل|القادسية|عين التمر
 

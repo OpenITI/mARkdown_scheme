@@ -107,8 +107,6 @@ PART II (more practice)
 	al-Baghdadiya, al-Baġdādīya, al-Kūfī,
 	al-Dhahabi, Jawziyya, aṭ-Ṭabarī
 	
-	Answer: ([Aa][lṭ]-)?\w+[iī](y+a)?\b
-	
 	TRICKY:
 	الاصبهاني، الاصفهانى، إسكندري،
 	البغدادية، بغدادي، الكوفي،

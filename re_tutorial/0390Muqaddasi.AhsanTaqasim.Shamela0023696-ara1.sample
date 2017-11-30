@@ -1,7 +1,41 @@
-#####ARABICA#SUBJECT#GEOGRAPHY#
-#####FILENAME#Shamela_0023696
+######OpenITI# 
 
-## | إقليم العراق
+#META# 000.SortField	:: Shamela_0023696
+#META# 000.BookURI	:: #0390.IbnAhmadMuqaddasi.AhsanTaqasim
+#META# 010.AuthorAKA	:: NODATA
+#META# 010.AuthorNAME	:: أبو عبد الله محمد بن أحمد المقدسي البشاري
+#META# 011.AuthorBORN	:: NOTGIVEN
+#META# 011.AuthorDIED	:: NOTGIVEN
+#META# 019.AuthorDIED	:: NODATA
+#META# 020.BookTITLE	:: أحسن التقاسيم في معرفة الأقاليم
+#META# 020.BookTITLESUB	:: NODATA
+#META# 021.BookSUBJ	:: البلدان والجغرافيا والرحلات
+#META# 022.BookVOLS	:: 1
+#META# 025.BookLANG	:: NODATA
+#META# 029.BookTITLEalt	:: NODATA
+#META# 030.LibURI	:: Shamela_0023696
+#META# 030.LibURIextra	:: NODATA
+#META# 031.LibREADONLINE	:: http://shamela.ws/browse.php/book-23696
+#META# 031.LibURL	:: http://shamela.ws/index.php/book/23696
+#META# 031.LibURLFILE	:: NODATA
+#META# 031.LibURLextra	:: NODATA
+#META# 040.EdALL	:: NODATA
+#META# 040.EdEDITOR	:: NODATA
+#META# 041.EdNUMBER	:: NODATA
+#META# 041.EdNumber	:: NODATA
+#META# 043.EdPUBLISHER	:: NODATA
+#META# 044.EdPLACE	:: NODATA
+#META# 045.EdYEAR	:: NODATA
+#META# 049.EdISBN	:: NODATA
+#META# 049.EdPAGES	:: NODATA
+#META# 049.EdPHYSICAL	:: NODATA
+#META# 049.EdVOLUME	:: NODATA
+#META# 090.RecMISC	:: NODATA
+#META# 999.MiscINFO	:: NODATA
+
+#META#Header#End# 
+
+### | إقليم العراق
 # هذا إقليم الظرفا، ومنبع العلماء ،، لطيف الما، عجيب
 ~~الهوا، ومختار الخلفاء،، اخرج ابا حنيفة فقيه الفقهاء،
 ~~وسفيان سيد القراء،، ومنه كان ابو عبيدة والفرا، وابو
@@ -22,8 +56,8 @@
 ~~سامرا 
 # فاما الكوفة فمن مدنها حمام ابن عمر الجامعين
 ~~سورا النيل القادسية عين التمر 
-# واما البصرة فمن مدنها الأبلة شق عثمان زبان بدران بيان نهر
-~~الملك دبا نهر الأمير ابو الخصيب سليمانان عبادان
+# واما البصرة فمن مدنها الأبلة شق عثمان زبان بدران بيان نهر الملك
+~~دبا نهر الأمير ابو الخصيب سليمانان عبادان
 ~~المطوعة والقندل ؟؟؟ المفتح الجعفرية 
 # واما واسط فمن مدنها فم الصلح در مكان قراقبة سيادة باذبين السكر
 ~~الطيب قرقوب قرية الرمل نهر تيري لهبان بسامية
@@ -247,7 +281,7 @@
 ~~الى القرى فإذا جزر أفاد أيضا عمل الارحية لأنها على أفواه 
 ~~الأنهار فإذا خرج الماء أدارها ويبلغ المد الى حدود
 ~~البطائح وله وقت يدور مع دور الاهلة 
-# ## || جمل شئون هذا الإقليم
+### || جمل شئون هذا الإقليم
 # هواء هذا الإقليم مختلف فبغداد وواسط وما دخل
 ~~ في هذا الصقع بلد رقيق الهواء سريع الانقلاب ربما توهج في
 ~~الصيف وآذى ثم انقلب سريعا والكوفة بخلافه ويكون بالبصرة
@@ -435,7 +469,7 @@
 # ومساحة العراق طولا من البحر الى السن مائة فرسخ وخمسة وعشرون وعرضه من
 ~~ العذيب الى عقبة حلوان ثمانون فإذا كسرته كان عشرة آلاف
 ~~فرسخ 
-# ## ||| واما المسافات 
+### ||| واما المسافات 
 # فتأخذ من بغداد الى نهر الملك مرحلة 
 ~~ثم الى القصر مرحلة
 ~~ثم الى حمام ابن عمر مرحلة 
