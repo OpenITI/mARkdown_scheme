@@ -1,0 +1,120 @@
+######OpenITI#
+
+# SUMMARY of NEW TAGS
+
+@HBHXV1P9A_BEG > 
+@HBHXV1P9A_BEG_WSACD >
+    @[A-Z]{4}V\d+P\d+[A-Z]_(BEG|END)(_[A-Z]+)*\b
+    > additional information is added after the `_BEG` part of the tag only;
+    these can be stacked
+    @HBHXV1P9A_BEG_WSACD_WSACD
+
+# ALT COLORS
+
+HBHXV1P9A_REL_WHNXV1P256A:
+    \b[A-Z]{4}V\d+P\d+[A-Z]_[A-Z]{3}_[A-Z]{4}V\d+P\d+[A-Z]\b
+
+# ALT COLORS
+
+HBHXV1P9A
+    \b[A-Z]{4}V\d+P\d+[A-Z]\b
+
+# ALT COLORS
+
+@QURS1A7_BEG
+@QURS114A10_END
+    @QURS\d+A\d+_(BEG|END)
+
+#@COMMENT HBHX1P9A Running commentary after that
+    ^#@COMMENT
+
+# ALT COLORS
+
+### | ALL COLORS
+
+### | 
+### || 
+### ||| 
+### |||| 
+### ||||| 
+
+### $ 
+### $$ 
+### $$$ 
+### $$$$ 
+
+#~:comment:
+#~:undefined:
+
+
+
+
+### | WITNESS TAGS (Cititations) - we tag SPANS
+
+OLD_PATTERN
+
+@SAcD@-@Cititation Vol:page@BEG@  >>> @SCRID@
+@SAcD@-@Cititation Vol:page@END@ >>>
+
+OLD_STRUCTURE:
+- witness id
+- text id + v-p
+- start OR end
+
+NEW_PATTERN
+
+@11112222_333(_444)
+
+1111 > source id (text); always 4 capital letters
+2222 > volume and page where passage begins (format: V#P#A - always A; if more, then A, B, C, D, etc.)
+333  > BEG or END
+4444 > extra (ALL CAPITAL LETTERS): the first letter > type of ID, the remaining letters: the ID; this one is optional
+
+ID TYPES:
+
+W > witness (specific person providing information) 
+
+# Example:
+
+@HBHXV1P9A_BEG
+
+@HBHXV1P9A_BEG_WSACD
+
+
+
+### | passage status > similar (minor differences) or variant (major differences) or paraphrase (same information, but wording is significantly different)
+
+SRCID_STS_SRCID
+
+HBHX1P9A_(SIM|VAR|PAR)_WHNXV1P256 
+
+Comment: We use `SIM`, `VAR`, and `PAR` --- to preserve human judgements, but when the data is generated, we can run a series of statistucal tests to identify patterns of similarities; but we need to describe somewhere what we actually mean by those terms.
+
+# Depricated
+
+@SIM~Citiation Vol:Page@
+
+@VAR~Citiation Vol:Page@
+
+# these are to be converted into `passage status` tags
+
+~+~HSNX:XXX~+~
+~HSNX:XXX~
+
+### | Commentary annotation
+
+#@COMMENT HBHX1P9A Running commentary after that
+
+~COM~CITATION Vol:Page Comment~
+
+### | Qurʾānic citations
+
+@QURSXXAXX_BEG
+@QURSXXAXX_END
+
+where X is a number
+
+~Q2:196~BEG@
+~Q2:196~END@    
+
+~ COM~CITATION Vol:Page Comment~ 
