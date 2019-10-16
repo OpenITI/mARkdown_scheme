@@ -11,8 +11,12 @@
 
 # ALT COLORS
 
-HBHXV1P9A_REL_WHNXV1P256A:
+HBHXV01P989A_VAR_WHNXV01P256A:
     \b[A-Z]{4}V\d+P\d+[A-Z]_[A-Z]{3}_[A-Z]{4}V\d+P\d+[A-Z]\b
+
+>>> EASIER (because these tags are used within the BEG and END tags of a passage they are SIMilar to or VARiant of)
+
+VAR_WHNXV01P256A
 
 # ALT COLORS
 
@@ -72,7 +76,8 @@ NEW_PATTERN
 
 ID TYPES:
 
-W > witness (specific person providing information) 
+W > witness (specific person providing information)
+P > poetry, followed by the ID of a poet?
 
 # Example:
 
