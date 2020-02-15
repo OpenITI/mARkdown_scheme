@@ -9,16 +9,10 @@
     these can be stacked
     @HBHXV1P9A_BEG_WSACD_WSACD
 
-# ALT COLORS
-
-HBHXV01P989A_VAR_WHNXV01P256A:
-    \b[A-Z]{4}V\d+P\d+[A-Z]_[A-Z]{3}_[A-Z]{4}V\d+P\d+[A-Z]\b
-
 >>> EASIER (because these tags are used within the BEG and END tags of a passage they are SIMilar to or VARiant of)
 
 VAR_WHNXV01P256A
-
-# ALT COLORS
+    \b[A-Z]{3}_[A-Z]{4}V\d+P\d+[A-Z]\b
 
 HBHXV1P9A
     \b[A-Z]{4}V\d+P\d+[A-Z]\b
@@ -29,10 +23,8 @@ HBHXV1P9A
 @QURS114A10_END
     @QURS\d+A\d+_(BEG|END)
 
-#@COMMENT HBHX1P9A Running commentary after that
+#@COMMENT HBHXV1P9A Running commentary after that
     ^#@COMMENT
-
-# ALT COLORS
 
 ### | ALL COLORS
 
