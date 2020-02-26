@@ -4,9 +4,17 @@ The main goal of **OpenITI mARkdown** is to provide a simple system for tagging 
 
 # A Very Brief Intro
 
-1. Texts in **OpenITI** are automatically converted into **OpenITI mARkdown**, and in most cases, only structural tagging is required—in other words, tagging headers of chapters, sections,  subsections and and other logical units. 
+Texts in **OpenITI** are automatically converted into **OpenITI mARkdown**, and in most cases, only structural tagging is required—in other words, tagging headers of chapters, sections,  subsections and and other logical units. 
+
+
 1. Download and install [EditPad Pro](http://www.editpadpro.com/). **EditPad Pro** works on Windows only; if you are using Mac or Linux, you can still use it with some virtualization option; the combination of **Parallels**, **Windows 10** and **EditPad Pro** works well on Macs.
-1. Download **OpenITI mARkdown** schemes from GitHub ([https://github.com/OpenITI/mARkdown_scheme](https://github.com/OpenITI/mARkdown_scheme)). First unzip the downloaded file, then, within the unzipped folder, unzip a file with the scheme (the file with the scheme looks like `20190904_154432.zip`) and unzip it. Copy all the files from that folder into `%APPDATA%\JGsoft\EditPad Pro 7` [You can double-click a shortcut *Follow_this_link_to_paste_mARkdownScheme*] (*Note*: make sure that EditPad Pro in not running: you need to do `File > Exit` to completely close it).
+	- Download **OpenITI mARkdown** schemes from GitHub using this link: [https://github.com/OpenITI/mARkdown_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip).
+	- the downloaded file should have the name `mARkdown_scheme-master.zip`. Unzip this file.
+	- Within the unzipped folder, find the file with the name like `20190904_154432.zip` (which is the date of the creation of the file; if there are more than one, choose the latest one) and unzip it.
+	- Within this new unzipped folder, select all the files and copy them into buffer (`Ctrl+c` on Windows; `Command+c` on Mac).
+	- *Note*: make sure that EditPad Pro is not running: you need to do `File > Exit` to completely shut it down.
+	- Now, final step, paste all the copied files from that folder into `%APPDATA%\JGsoft\EditPad Pro 7` (you can either paste this path into Explorer and hit `Enter`; or, you can double-click the shortcut *Follow_this_link_to_paste_mARkdownScheme* in the first unzipped folder.
+	
 1. The scheme is automatically activated in EditPad Pro by the first line in the file, which must be: `#####OpenITI#` (called *magic value* in EditPad Pro).
 1. Texts in the repositories of the [OpenITI Project](https://github.com/OpenITI) have already been preprocessed. Opening any of these texts in EditPad Pro should automatically activate **OpenITI mARkdown** scheme.
 1. The tagging of structural elements of the text boils down to the following:
