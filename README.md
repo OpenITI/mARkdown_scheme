@@ -12,8 +12,10 @@ Texts in **OpenITI** are automatically converted into **OpenITI mARkdown**, and 
 	- the downloaded file should have the name `mARkdown_scheme-master.zip`. Unzip this file.
 	- Within the unzipped folder, find the file with the name like `20190904_154432.zip` (which is the date of the creation of the file; if there are more than one, choose the latest one) and unzip it.
 	- Within this new unzipped folder, select all the files and copy them into buffer (`Ctrl+c` on Windows; `Command+c` on Mac).
-	- *Note*: make sure that EditPad Pro is not running: you need to do `File > Exit` to completely shut it down.
+	- *Note*: **make sure that EditPad Pro is not running: you need to do `File > Exit` to completely shut it down.**
 	- Now, final step, paste all the copied files from that folder into `%APPDATA%\JGsoft\EditPad Pro 7` (you can either paste this path into Explorer and hit `Enter`; or, you can double-click the shortcut *Follow_this_link_to_paste_mARkdownScheme* in the first unzipped folder.
+	- When you open EditPadPro after this, the background in EditPadPro should be of yellowish color!
+	- *Another note:* if the background is still white, you need to repeat the whole procedure; make sure to shut down EditPadPro (*not just click on the `x` in the top right corner, but shut it down through `FILE > Exit`*), then copy-paste the files of the scheme into folder `%APPDATA%\JGsoft\EditPad Pro 7`. 
 	
 1. The scheme is automatically activated in EditPad Pro by the first line in the file, which must be: `#####OpenITI#` (called *magic value* in EditPad Pro).
 1. Texts in the repositories of the [OpenITI Project](https://github.com/OpenITI) have already been preprocessed. Opening any of these texts in EditPad Pro should automatically activate **OpenITI mARkdown** scheme.
