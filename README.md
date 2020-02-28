@@ -10,7 +10,14 @@ Texts in **OpenITI** are automatically converted into **OpenITI mARkdown**, and 
 1. Download and install [EditPad Pro](http://www.editpadpro.com/). **EditPad Pro** works on Windows only; if you are using Mac or Linux, you can still use it with some virtualization option; the combination of **Parallels**, **Windows 10** and **EditPad Pro** works well on Macs.
 	- Download **OpenITI mARkdown** schemes from GitHub:
 		- You can use the following link to download schemes for both EditPadPro 7 and EditPadPro 8: [https://github.com/OpenITI/mARkdown_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip). You will need to unzip this file and then unzip the files with the desired scheme.
-		- Alternatively, you can download the file for a specific version of EditPadPro, which have the following filename pattern: `EditPadProV_YYYYMMDD_HHMMSS.zip`, where `V` is the version of EditPadPro (7 or 8), `YYYYMMDD` is the date (year, month, day), and `HHMMSS` is time (hour, minutes, seconds); `YYYYMMDD_HHMMSS` is a timestamp of when the version of mARkdown was generated. Fore example: `EditPadPro8_20200228_174919.zip`, `EditPadPro7_20200228_174919.zip`. If there are multiple files for the same version of EditPadPro, please, choose the latest one.	
+		- Alternatively, you can download the file for a specific version of EditPadPro, which have the following filename pattern: `EditPadProV_YYYYMMDD_HHMMSS.zip`, where `V` is the version of EditPadPro (7 or 8), `YYYYMMDD` is the date (year, month, day), and `HHMMSS` is time (hour, minutes, seconds); `YYYYMMDD_HHMMSS` is a timestamp of when the version of mARkdown was generated. Fore example: `EditPadPro8_20200228_174919.zip`, `EditPadPro7_20200228_174919.zip`. If there are multiple files for the same version of EditPadPro, please, choose the latest one.
+	- Unzip the file with the mARkdown scheme (names like `EditPadProV_YYYYMMDD_HHMMSS.zip`) into a separate folder.
+	- Go into this new folder:
+		- Select all files there (`Ctrl+a` on Windows; `Command+a` on Mac);
+		- Copy the selected files into buffer (`Ctrl+c` on Windows; `Command+c` on Mac).
+		- Double-click on the link `_Follow_this_link_to_paste_...` which will take you to a different folder
+			- This link takes to `%APPDATA%\JGsoft\EditPad Pro 7` in case of EditPadPro7 and `%APPDATA%\JGsoft\EditPad Pro 8` in case of EditPadPro8
+		- In that folder, paste copied files (`Ctrl+v` on Windows; `Command+v` on Mac).
 		
 	- the downloaded file should have the name `mARkdown_scheme-master.zip`. Unzip this file.
 	- Within the unzipped folder, find the file with the name like `20190904_154432.zip` (which is the date of the creation of the file; if there are more than one, choose the latest one) and unzip it.
