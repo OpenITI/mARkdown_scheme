@@ -8,7 +8,9 @@ Texts in **OpenITI** are automatically converted into **OpenITI mARkdown**, and 
 
 
 1. Download and install [EditPad Pro](http://www.editpadpro.com/). **EditPad Pro** works on Windows only; if you are using Mac or Linux, you can still use it with some virtualization option; the combination of **Parallels**, **Windows 10** and **EditPad Pro** works well on Macs.
-	- Download **OpenITI mARkdown** schemes from GitHub using this link: [https://github.com/OpenITI/mARkdown_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip).
+	- Download **OpenITI mARkdown** schemes from GitHub:
+		- You can use the following link to download schemes for both EditPadPro 7 and EditPadPro 8: [https://github.com/OpenITI/mARkdown_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip). You will need to unzip this file and then unzip the files with the desired scheme.
+		- Alternatively, you can download the file for a specific version of EditPadPro, which have the following filename pattern: 
 	- the downloaded file should have the name `mARkdown_scheme-master.zip`. Unzip this file.
 	- Within the unzipped folder, find the file with the name like `20190904_154432.zip` (which is the date of the creation of the file; if there are more than one, choose the latest one) and unzip it.
 	- Within this new unzipped folder, select all the files and copy them into buffer (`Ctrl+c` on Windows; `Command+c` on Mac).
