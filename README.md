@@ -21,7 +21,7 @@ Texts in **OpenITI** are automatically converted into **OpenITI mARkdown**, and 
 		- In that folder, paste copied files (`Ctrl+v` on Windows; `Command+v` on Mac).
 	5. Now, open EditPadPro.		
 		- If you done everything correctly, the background in EditPadPro should be of yellowish color
-		- If the background is still white, you need to repeat the whole procedure; npow, make absolutely sure to shut down EditPadPro (*not just click on the `x` in the top right corner, but shut it down through `FILE > Exit`*), then repeat steps. 	
+		- If the background is still white, you need to repeat the whole procedure; npow, make absolutely sure to shut down EditPadPro (*not just click on the `x` in the top right corner, but shut it down through `FILE > Exit`*), then repeat all steps from the beginning of this section. 	
 1. The scheme is automatically activated in EditPad Pro by the first line in the file, which must be: `#####OpenITI#` (called *magic value* in EditPad Pro).
 1. Texts in the repositories of the [OpenITI Project](https://github.com/OpenITI) have already been preprocessed. Opening any of these texts in EditPad Pro should automatically activate **OpenITI mARkdown** scheme.
 1. The tagging of structural elements of the text boils down to the following:
